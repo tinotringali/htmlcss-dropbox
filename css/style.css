@@ -1,0 +1,101 @@
+
+/*
+---------
+ RESET
+---------
+  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+---------
+ COMMON
+---------
+  */
+.row{
+    display: flex;
+}
+
+.primary{
+    background-color: #0061ff;
+    color: white;
+    border: none;
+}
+
+p{
+    line-height: 22px;
+}
+/*
+---------
+ HEADER
+---------
+  */
+.header-menu.row{
+    height: 80px;
+    justify-content: space-between;
+}
+
+.menu-left,.menu-right{
+    padding: 30px;
+}
+
+.info-menu{
+    margin-right: 30px;
+}
+  
+.button-header{
+    height:35px;
+    width: 60px;
+}
+  /*
+---------
+ MAIN
+---------
+  */
+.big-container{
+    background-color: #b4d0e7;
+    height: 740px;
+    width: 100%;
+    padding-left: 300px;
+    padding-bottom: 75px;
+}
+
+h1{
+    width: 900px;
+    padding-top: 110px;
+    font-size: 80px;
+    line-height: 90px;
+}
+
+.container{
+    position: relative;
+    top: 115px;
+}
+
+.box-1{
+    width: 350px;
+}
+
+.button-main{
+    margin: 25px 0px 25px 0;
+    height: 35px;
+    width: 200px;
+}
+
+.fa-arrow-down{
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.jumbo{
+    width: 700px;
+}
+  /*
+---------
+ FOOTER
+---------
+  */
