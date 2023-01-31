@@ -20,10 +20,6 @@
     display: flex;
 }
 
-.wrap{
-    flex-wrap: wrap;
-}
-
 .primary{
     background-color: #0061ff;
     color: white;
@@ -91,14 +87,14 @@ header{
 
 h1{
     width: 900px;
-    padding-top: 110px;
+    padding-top: 140px;
     font-size: 80px;
     line-height: 90px;
 }
 
 .container{
     position: relative;
-    top: 115px;
+    top: 80px;
 }
 
 .box-1{
@@ -263,10 +259,10 @@ flex-wrap: wrap;
     height: 500px;
 }
 
-hr{
+/* hr{
     margin: 60px 0;
     width: 100px;
-}
+} */
 
 .img-clienti{
     width: 120px;
@@ -327,6 +323,31 @@ hr{
     width: 350px;
     font-size: 30px;
     color: #61082b;
+}
+  /*
+---------
+ section-6
+---------
+  */
+.section-6{
+    width: 100%;
+}
+
+.questions{
+    width: 1000px;
+    margin: 150px auto;
+}
+
+.title-s6{
+  font-size: 30px;
+}
+
+hr{
+    margin: 40px 0px;
+    width: 1000px;
+}
+span{
+    margin-left: 360px;
 }
   /*
 ---------
